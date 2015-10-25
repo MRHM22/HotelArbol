@@ -9,7 +9,6 @@
                     <img src="images/w1.jpg" class="img-responsive" alt="" />
                 </div>
                 <div class="col-md-6 content-right">
-                    <h2>Etiam ornare nisi eget quam pretium ipsum semper.</h2>
                     <p>
                   vamos de nuevo 
                           </p>
