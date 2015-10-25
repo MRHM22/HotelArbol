@@ -9,5 +9,6 @@ namespace Hotel.Entidad
     {
         String Nombre;
         String Apellido;
+        String SegundoApellido;
     }
 }
