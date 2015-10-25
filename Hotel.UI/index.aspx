@@ -9,12 +9,10 @@
                     <img src="images/w1.jpg" class="img-responsive" alt="" />
                 </div>
                 <div class="col-md-6 content-right">
-                    <h2>Etiam ornare nisi eget quam pretium ipsum semper.</h2>
+                    <h2>Titulo.</h2>
                     <p>
-                        Vestibulum augue nisi, mattis et mattis sed, commodo id turpis. Maecenas quis felis enim. Integer lacinia in ex quis laoreet.
-				 Aliquam justo urna, ullamcorper non pellentesque sit amet, ultrices in lacus. Curabitur vitae nisl vel tellus rutrum ullamcorper.
-				 Proin volutpat, magna eget posuere laoreet, est massa lobortis mi, a commodo dui nisi eget risus.
-                    </p>
+                    funciona vamos 
+ 		    </p>
                     <p>Maecenas eget magna volutpat, tincidunt urna id, imperdiet mi. Suspendisse dignissim eros sit amet nulla faucibus tristique quis ac libero.Vestibulum molestie maximus felis, rhoncus dignissim metus.</p>
                 </div>
                 <div class="clearfix"></div>
