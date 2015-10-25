@@ -103,7 +103,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             });
 
         </script>
-        <div class="header-slider">
+        <!--Aqui le comento esto
+       <div class="header-slider">
             <div class="slider">
                 <div class="callbacks_container">
                     <ul class="rslides" id="slider">
@@ -134,7 +135,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> 
+        
+        -->
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
@@ -174,6 +177,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
         </div>
         <!---->
+        
         <script type="text/javascript">
             $(document).ready(function () {
                 /*
