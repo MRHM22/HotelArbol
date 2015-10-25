@@ -1,7 +1,45 @@
 ﻿<%@ Page Title="Hola Belleza" Language="C#" MasterPageFile="~/pagmaster.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Hotel.UI.index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <div class="header-slider">
+            <div class="slider">
+                <div class="callbacks_container">
+                    <ul class="rslides" id="slider">
+                        <div class="slid banner1">
+                            <div class="caption">
+                                <h3>Donec ut turpis sit amet enim mattis commodo velit.</h3>
+                                <p>FOURNIER Timber carefully selects from a wide range of quality hardwoods to customers exact requirements which minimises wastage.</p>
+                                <a class="hvr-bounce-to-right btn-left" href="#">Click</a>
+                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>
+                            </div>
+                        </div>
+                        <div class="slid banner2">
+                            <div class="caption">
+                                <h3>Donec ut turpis sit amet enim mattis commodo velit.</h3>
+                                <p>FOURNIER Timber carefully selects from a wide range of quality hardwoods to customers exact requirements which minimises wastage.</p>
+                                <a class="hvr-bounce-to-right btn-left" href="#">Click</a>
+                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>
+                            </div>
+                        </div>
+                        <div class="slid banner3">
+                            <div class="caption">
+                                <h3>Donec ut turpis sit amet enim mattis commodo velit.</h3>
+                                <p>FOURNIER Timber carefully selects from a wide range of quality hardwoods to customers exact requirements which minimises wastage.</p>
+                                <a class="hvr-bounce-to-right btn-left" href="#">Click</a>
+                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        
+
     <div class="content">
         <div class="container">
             <div class="content-grids">
@@ -19,6 +57,12 @@
             </div>
         </div>
     </div>
+
+
+     
+
+
+
     <!-- services -->
     <div id="services" class="services">
         <div class="container">
