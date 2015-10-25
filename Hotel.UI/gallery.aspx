@@ -1,7 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pagmaster.Master" AutoEventWireup="true" CodeBehind="gallery.aspx.cs" Inherits="Hotel.UI.gallery" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
- 
-</asp:Content>
+
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="top-banner"></div>	
