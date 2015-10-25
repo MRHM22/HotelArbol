@@ -13,7 +13,7 @@
                     <p>
                   vamos de nuevo 
                           </p>
-                    <p>Maecenas eget magna volutpat, tincidunt urna id, imperdiet mi. Suspendisse dignissim eros sit amet nulla faucibus tristique quis ac libero.Vestibulum molestie maximus felis, rhoncus dignissim metus.</p>
+                    <p>actualiza el proyecto en qithub</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
