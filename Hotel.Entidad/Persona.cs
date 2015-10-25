@@ -5,7 +5,9 @@ using System.Text;
 
 namespace Hotel.Entidad
 {
-    public class Class1
+    public class Persona
     {
+        String Nombre;
+        String Apellido;
     }
 }
