@@ -194,6 +194,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hotel.Entidad\Hotel.Entidad.csproj">
+      <Project>{a731f205-132a-49da-8170-485258874ffa}</Project>
+      <Name>Hotel.Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hotel.Negocio\Hotel.Negocio.csproj">
+      <Project>{06780bbc-2830-44e1-9cae-d7984e2e6fc5}</Project>
+      <Name>Hotel.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
