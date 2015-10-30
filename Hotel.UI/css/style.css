@@ -927,6 +927,44 @@ font-size: 1.6em;
   margin-bottom:1em;
   font-family: 'LobsterTwo-Regular';
 }
+
+
+.reservacion {
+	padding: 3em 0px ;
+}
+.reservacion-top {
+	padding-bottom: 3em;
+	text-align:center;	
+}
+.reservacion-top h3,h2.top,.gallery h3,.contact-top h3 {
+	font-size: 2.5em;
+  color: #F43C60;
+  text-align: center;
+  padding-bottom: 0.5em;
+  font-family: 'LobsterTwo-Bold';
+}
+.reservacion-top p {
+	color: #777;
+  line-height: 1.8em;
+  width:85%;
+  margin:0 auto;
+  font-size: 1em;
+}
+.reservacion-bottom-left h3{
+font-size: 1.6em;
+  color: #F43C60;
+}
+.reservacion-bottom-left p {
+	color: #777;
+	line-height: 1.8em;
+	margin:1em 0;
+}
+.reservacion-bottom-right img {
+	width: 100%;
+}
+
+
+
 h3.prjt{
 	  font-size: 1.7em;
   color:#F43C60;

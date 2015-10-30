@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Hola Belleza</title>
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary JavaScript plugins) -->
@@ -13,7 +13,7 @@
     <link href="css/style.css" rel='stylesheet' type='text/css' />
     <!-- Custom Theme files -->
     <!--//theme-style-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Flooring Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
@@ -26,12 +26,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!--/script-->
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 900);
-            });
+          
         });
     </script>
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -65,6 +63,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="active"><a href="index.aspx">Home</a></li>
+                                <li><a class="scroll" href="index.aspx#services">Servicios</a></li>
+                                <li><a href="reservacion.aspx">Reservación</a></li>
+                                <li><a href="gallery.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galería<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="gallery.aspx#Hotel">Hotel</a></li>
+                                        <li><a href="gallery.aspx#Habitaciones">Habitaciones</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.aspx">Mail</a></li>
                                 <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="about.aspx">about1</a></li>
@@ -72,16 +79,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <li><a href="about.aspx">about3</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="scroll" href="#services">Services</a></li>
-                                <li><a href="typo.aspx">News</a></li>
-                                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="gallery.aspx">gallery1</a></li>
-                                        <li><a href="gallery.aspx">gallery2</a></li>
-                                        <li><a href="gallery.aspx">gallery3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.aspx">Mail</a></li>
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
@@ -162,8 +159,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <h4>Newsletter</h4>
                         <p>Aenean sagittis est eget elit pulvinar cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non purus at risus consequat finibus.</p>
                         <form>
-                            <input type="text" class="text" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
-                            <input type="submit" value="Subscribe">
+                            <input type="text" class="text" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}" />
+                            <input type="submit" value="Subscribe" />
                             <div class="clearfix"></div>
                         </form>
                     </div>
@@ -177,7 +174,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
         </div>
         <!---->
-        
+
         <script type="text/javascript">
             $(document).ready(function () {
                 /*

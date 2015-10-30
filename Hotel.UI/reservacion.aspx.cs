@@ -7,10 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Hotel.UI
 {
-    public partial class gallery : System.Web.UI.Page
+    public partial class reservacion : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
         }
     }
 }
